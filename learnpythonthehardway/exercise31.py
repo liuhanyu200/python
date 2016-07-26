@@ -1,4 +1,5 @@
-print "You enter a dark room with two doors. Do you go through the door #1 or #2?"
+print "Hello!"
+print "You enter a dark room with two doors. Do you go through the door 1 or 2 ?"
 
 door = raw_input("> ")
 
@@ -16,10 +17,18 @@ if door == '1':
 	else:
 		print "well,doing %s is probably better. Bear runs away." % bear
 
-elif bear == '2':
+elif door == '2':
 	print "You stare into the endless abyss at Cthu1hu's retina."
 	print "1. Blueberries."
 	print "2. Yellow jacket clothespins."
 	print "3. Understanding revolvers yelling melodies."
 
 	insanity = raw_input("> ")
+
+	if insanity == "1" or insanity == "2":
+		print "Your body survives powered by a mind of jello. Good job!"
+	else:
+		print "The insanity rots your eyes into a pool of muck. Good job!"
+
+else:
+	print "Your stumble around and fall on a knife and die. Good job!"
