@@ -6,7 +6,8 @@ random
 
 ```python
 # 从population这个字典域中取出一个随机序列，长度为k
-random() -> random.sample(population, k)
+import random
+random.sample(population, k)
 ```
 
 range
